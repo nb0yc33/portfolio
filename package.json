@@ -2,7 +2,7 @@
   "name": "new-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nb0yc33/portfolio",
+  "homepage": "https://nb0yc33.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
