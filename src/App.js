@@ -1,26 +1,33 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Projects from './projects.jsx'; 
+import Strengths from './strengths.jsx';
+import About from './about.jsx'; 
+import './App.scss';
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <div className="navigation">
+          <img src={logo} className="logo-image" alt="Nicholas Boyce Logo" />
+          <div className="navigation-sub">
+                                          
+            <Link to="/" className="item">Projects</Link>
+            <Link to="/strengths" className="item">Strengths</Link>
+            <Link to="/about" className="item">About</Link>
+  
+          </div>
+        </div>
+  
+        <Route exact path="/" component={Projects} />
+        <Route exact path="/strengths" component={Strengths} />
+        <Route path="/about" component={About} />
+
+      </div>
+    </BrowserRouter>
   );
 }
-
+ 
 export default App;

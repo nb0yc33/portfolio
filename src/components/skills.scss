@@ -1,0 +1,21 @@
+.skill {
+  margin: auto;
+  text-align: center;
+  border: 1px black solid;
+  width: 50vw;
+  padding: 1em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .skill-graphic {
+    margin-top: 1em;
+    width: 20%;
+  }
+}
+
+.pro {
+  font-family: "Piazzolla", sans-serif;
+  font-size: 18px;
+}

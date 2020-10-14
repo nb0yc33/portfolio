@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+
+.profile {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.description {
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 70%;
+  border: 1px black solid;
+}
+
+.desc-heading,
+.hobbies {
+  font-family: "Piazzolla", sans-serif;
+  font-size: 24px;
+}

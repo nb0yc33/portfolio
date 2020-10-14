@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+
+.thumbnail-link {
+  text-decoration: none;
+  color: black;
+}
+
+.project {
+  width: 50%;
+}
+
+.project-image {
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.project-showcase {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: blue;
+}
+
+.project-image:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.links {
+  margin: auto;
+  margin-top: 3%;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-title {
+  font-family: "Piazzolla", sans-serif;
+  font-size: 18px;
+}
