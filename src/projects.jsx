@@ -15,16 +15,25 @@ function Projects(props) {
                     work (HTML, CSS, JS). I have also been responsible for overhauling the database via MSSQL. "
         github="https://github.com/nb0yc33/wesleycardiology"
       />
-
+      <Thumbnail
+        image="https://i.ibb.co/KymSXXt/busting.png"
+        title="Busting"
+        category="Web Application"
+        description="I developed this web tool with three other team mates for the UQ Computing Society 2020 Hackathon
+                    (over the span of a weekend). Busting directs users to their nearest public (government-managed)
+                    toilet. This application won the 'Most Philanthropic Award'. "
+        github="https://github.com/lachlanharnett/UQCS-Hackathon-2020"
+        link="https://lachlanharnett.github.io/UQCS-Hackathon-2020/"
+      />
       <Thumbnail
         image="https://i.ibb.co/MnQZXk1/tc.png"
+        title="TECH_CENTRAL"
         category="Web Application"
         description="TECH_CENTRAL is a video-sharing platform that I developed for the course INFS3202-Web Information Systems. 
-                     It is designed to be specifically for sharing tech reviews and tech-related videos with other people interested
-                     in technology."
+                    It is designed to be specifically for sharing tech reviews and tech-related videos with other people interested
+                    in technology."
         github="https://github.com/nb0yc33/TECH_CENTRAL"
       />
-
       <Thumbnail
         image="https://i.ibb.co/8XLqdx2/moviepicker.png"
         title="MoviePicker"
