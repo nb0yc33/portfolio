@@ -24,7 +24,9 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/strengths" component={Strengths} />
           <Route path="/about" component={About} />
-          <Redirect exact from="/portfolio" to="projects" />
+          <Route exact path="/">
+            <Redirect to="/projects" />
+          </Route>
       </div>
     </BrowserRouter>
   );
