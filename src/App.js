@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { BrowserRouter, Route, Link, Redirect } from 'react-router-dom'; 
+import { BrowserRouter, Route, Link, Switch } from 'react-router-dom'; 
 import Projects from './projects.jsx'; 
 import Strengths from './strengths.jsx';
 import About from './about.jsx'; 
@@ -21,11 +21,12 @@ function App() {
     
             </div>
           </div>
-
+          <Switch>
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/strengths" component={Strengths} />
             <Route path="/about" component={About} />
             <Route path="/portfolio" component={Home} />
+          </Switch>
         </div>
       </BrowserRouter>
 
