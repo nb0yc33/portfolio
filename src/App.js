@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Link, Redirect } from 'react-router-dom';
 import Projects from './projects.jsx'; 
 import Strengths from './strengths.jsx';
 import About from './about.jsx'; 
+import Home from './home.jsx';
 import './App.scss';
  
 function App() {
@@ -24,11 +25,10 @@ function App() {
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/strengths" component={Strengths} />
           <Route path="/about" component={About} />
-          <Route exact path="/">
-            <Redirect to="/projects" />
-          </Route>
+          <Route exact path="/" component={Home} />
       </div>
     </BrowserRouter>
+    
   );
 }
  
