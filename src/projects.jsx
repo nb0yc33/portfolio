@@ -16,9 +16,20 @@ function Projects(props) {
         github="https://github.com/nb0yc33/wesleycardiology"
       />
       <Thumbnail
+        image="https://i.ibb.co/NVzhKmf/watersysaus.png"
+        title="Water Systems Australia"
+        category="Mobile-Friendly Web Application"
+        description="This project was developed in a team for a capstone studio course at uni. Our team was presented with the document
+                     proposing this concept, and we then developed it based on spec. The implementation meets all the requirements of
+                     the original proposal. Unfortunately I do not have a live version of this application to exhibit since it is hosted
+                     on the UQCloud which requires UQ authentication. The code base is located on my GitHub though, and the SQL file is
+                     located there too."
+        github="https://github.com/nb0yc33/watersysaus"
+      />
+      <Thumbnail
         image="https://i.ibb.co/KymSXXt/busting.png"
         title="Busting"
-        category="Web Application"
+        category="Mobile-Friendly Web Application"
         description="I developed this web tool with three other team mates for the UQ Computing Society 2020 Hackathon
                     (over the span of a weekend). Busting directs users to their nearest public (government-managed)
                     toilet. This application won the 'Most Philanthropic Award'. "

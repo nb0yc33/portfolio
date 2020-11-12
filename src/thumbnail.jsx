@@ -18,8 +18,18 @@ function Thumbnail(props) {
               </div>
             </div>
           </div>
-          <div className="project-title">{props.title}</div>
-          <div className="project-category">{props.category}</div>
+          <div className="project-general">
+            <div className="project-title">{props.title}</div>
+            <div className="project-category">{props.category}</div>
+          </div>
+          <div className="mobile-details">
+              <div className="project-title-mobile">{props.title}</div>
+              <div className="mobile-description">{props.description}</div>
+              <div className="mobile-links">
+                <a href={props.github}><img src={github} className="mobile-github" alt="GitHub Link"></img></a>
+                <a href={props.link}><img src={link} className="mobile-link" alt="Web Link"></img></a>
+              </div>
+          </div>
       </div>
 
   );
