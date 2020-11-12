@@ -16,6 +16,14 @@ function Projects(props) {
         github="https://github.com/nb0yc33/wesleycardiology"
       />
       <Thumbnail
+        image="https://i.ibb.co/tQ17zHq/portfolio.png"
+        title="This Portfolio Site :)"
+        category="Mobile-Friendly Web Application"
+        description="I developed this portfolio from scratch purely using the ReactJS framework."
+        github="https://github.com/nb0yc33/portfolio"
+        link="https://nb0yc33.github.io/portfolio"
+      />
+      <Thumbnail
         image="https://i.ibb.co/NVzhKmf/watersysaus.png"
         title="Water Systems Australia"
         category="Mobile-Friendly Web Application"
